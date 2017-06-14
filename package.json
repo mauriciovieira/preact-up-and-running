@@ -1,0 +1,18 @@
+{
+  "name": "preact-up-and-running",
+  "version": "1.0.0",
+  "description": "This is me trying Preact out!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mauriciovieira/preact-up-and-running.git"
+  },
+  "keywords": [
+    "preact"
+  ],
+  "author": "Mauricio Vieira <mauricio@mauriciovieira.net>",
+  "license": "MIT"
+}
