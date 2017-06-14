@@ -4,7 +4,10 @@
   "description": "This is me trying Preact out!",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack",
+    "clean": "rm -rf build/",
+    "start": "webpack-dev-server --inline"
   },
   "repository": {
     "type": "git",
