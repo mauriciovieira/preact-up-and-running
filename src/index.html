@@ -10,16 +10,26 @@
         <main>
 
         </main>
+        <script src="../node_modules/preact/dist/preact.js">
+            
+        </script>
+
         <script>
-            const app = document.createElement('div')
-            app.classList.add('app')
+            // const app = document.createElement('div')
+            // app.classList.add('app')
 
-            const header = document.createElement('h1')
-            header.textContent = 'Hello World!'
+            // const header = document.createElement('h1')
+            // header.textContent = 'Hello World!'
 
-            app.appendChild(header)
+            // app.appendChild(header)
 
-            document.querySelector('main').appendChild(app)
+            // document.querySelector('main').appendChild(app)
+
+            const { h, render } = preact;
+            const app = h('div', { class: 'app' }, [
+                h('h1', null, 'H3llo w0rld!')
+            ])
+            render(app, document.querySelector('main'))
         </script>
     </body>
 </html>
